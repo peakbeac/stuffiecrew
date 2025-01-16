@@ -1,0 +1,1 @@
+insert dbo.AllStuffies ([AllStuffiesID],[FirstName], [LastName] )
