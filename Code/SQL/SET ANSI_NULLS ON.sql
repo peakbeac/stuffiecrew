@@ -12,7 +12,8 @@ CREATE TABLE [dbo].[AllStuffies](
 	[Street] [varchar](50) NULL,
 	[City] [varchar](25) NULL,
 	[State] [varchar](15) NULL,
-	[ZIP] [int] NULL
+	[ZIP] [int] NULL,
+	[Owner] [varchar](20) NOT NULL
 ) ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[AllStuffies] ADD  CONSTRAINT [PK_AllStuffies] PRIMARY KEY CLUSTERED 
