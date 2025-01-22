@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download App - TSC</title>
+</head>
+<body>
+    <button id = "downloadButton">Download App for Android</button>
+    <br>
+    <p>Sorry, iPhone users</p>
+
+    <script>
+        document.getElementById('downloadButton').addEventListener('click', function()
+        {
+            const fileURL = 'C:/Users/beaco/Documents/GitHub/stuffiecrew/Code/App/TSC.apk';
+
+            const link = document.createElement('a');
+            link.href = fileURL;
+            link.download = 'thestuffiecrew.apk';
+
+            link.click();
+        });
+    </script>
+</body>
+</html>
