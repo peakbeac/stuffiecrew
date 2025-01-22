@@ -1,5 +1,5 @@
 //MODIFIED BY: Peak Beacom
-//DATE MODIFIED: 01/17/2025
+//DATE MODIFIED: 01/20/2025
 
 let user;
 let pass;
@@ -23,7 +23,7 @@ const aUser = ariafasano;
 const aPass = lmp;
 
 const sUser = suhrithmamilla;
-const sPass = lalala;
+const sPass = skull;
 
 const User7 = user7;
 const Pass7 = user7;
